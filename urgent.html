@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Security Center</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="urgent.css">
+</head>
+<body>
+
+<header class="topbar">
+    <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=200"
+        alt="logo">
+    <span>Mobile Security Center</span>
+</header>
+
+<main class="container">
+    <div class="card">
+        <img class="hero"
+            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=800"
+            alt="security">
+
+        <h1>Activité suspecte détectée</h1>
+        <p class="alert">
+            Une tentative d’accès non autorisée a été détectée sur cet appareil.
+        </p>
+
+        <div class="status">
+            🔍 Analyse en cours…
+            <div class="progress"></div>
+        </div>
+
+        <button onclick="reveal()">Sécuriser maintenant</button>
+
+        <div id="joke" class="joke hidden">
+            😂😂😂  
+            <p>Salut,
+
+C’est moi 🙂
+Je voulais juste t’expliquer : la page que tu as vue, c’était **une blague faite par moi**.
+
+Le but n’était pas de te faire peur, mais **de te montrer qu’il faut vraiment faire attention aux liens sur lesquels on clique**.
+Sur Internet, tout ne vient pas de personnes de confiance, et parfois ça ressemble à de vrais sites.
+
+Donc retiens juste ça :
+👉 **ne clique jamais sur n’importe quel lien**, même si le message a l’air sérieux ou urgent.
+
+Rassure-toi, il n’y a **aucun danger**, rien n’a été piraté.
+C’était juste un rappel entre amis 😉
+
+À bientôt
+Alassane
+!</p>
+            <p>Aucun piratage. Ton téléphone va très bien. </p>
+            <p>blozzyyy ne ka tchai  😂😂😂  </p>
+        </div>
+    </div>
+</main>
+
+<script>
+function reveal() {
+    document.getElementById("joke").classList.remove("hidden");
+}
+</script>
+
+</body>
+</html>
